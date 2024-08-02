@@ -1,0 +1,25 @@
+.images-download-btn:link,
+.images-download-btn:visited {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+
+  background-color: #087f5b;
+  padding: 12px 24px;
+  border: 2px solid #087f5b;
+  border-radius: 5px;
+
+  color: #fff;
+  text-decoration: none;
+}
+
+.images-download-btn:hover {
+  background-color: transparent;
+  color: #087f5b;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
